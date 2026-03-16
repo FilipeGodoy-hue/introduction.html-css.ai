@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro exercicio de HTML</title>
+    <title>Formatacao de textos</title>
 </head>
 <body>
-    <h1>Ola, mundo!</h1></h1>
-    <hr
-    <p>Esse e o meu primeiro documento HTML, estou muito feliz</p>
-    <p>Este e um momento unico! Estou criando um site!</p>
+    <h1>principais formatacoes de textos</h1>
+    <hr>
+    <h2>Negrito/destaque</h2>
+    <p>Nessa frase temos um <b>texto em negrito</b> <br> usando a tag b.</p>
+    <h2>Italico</h2>
+    <p>nessa frase temos um <em>texto em italico</em> usando a tag em.</p>
+    <h2>Texto marcado</h2>
+    <p>nessa frase temos um <mark style="background-color: blueviolet;">texto marcado</mark> usando a tag mark.</p>
+    <p>e no outro paragrafo temos um <mark style="background-color: rgb(129, 126, 18);">texto marcado</mark> usando a tag mark.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>nessa frase temos um <big>texto grande</big> e um <small>texto pequeno</small> usando as tags big e small.</p>
+    
+    
 </body>
 </html>
