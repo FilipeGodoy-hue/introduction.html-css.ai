@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente diminua o tamanho do seu navegador </p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemMedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="imagem flexivel">
+
+    </picture>
+    <h1>Reproduzindo áudio e vídeo em HTML5</h1>
+    <p>vamos aprender a reproduzir áudio e vídeo em HTML5</p>
+    <audio src="midia/nebula.mp3" controls autoplay loop></audio>
+    <p>clique aqui para baixar o áudio</p>
+    <a href="midia/nebula.mp3" download>Download do áudio</a>
+    
+
+</body>
+</html>

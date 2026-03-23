@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews - Seu Portal de Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">
+                <h1>📰 TechNews</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active">Início</a></li>
+                    <li><a href="#" class="nav-link">Tecnologia</a></li>
+                    <li><a href="#" class="nav-link">Negócios</a></li>
+                    <li><a href="#" class="nav-link">Inovação</a></li>
+                    <li><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar notícias...">
+                <button id="searchBtn">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Fique atualizado com as últimas notícias</h2>
+            <p>Acompanhe os principais acontecimentos do mundo da tecnologia e inovação</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <!-- FILTROS -->
+        <section class="filters">
+            <h3>Filtrar por Categoria:</h3>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="todas">Todas</button>
+                <button class="filter-btn" data-filter="tecnologia">Tecnologia</button>
+                <button class="filter-btn" data-filter="tecnologia">Inteligência Artificial</button>
+                <button class="filter-btn" data-filter="inovacao">Inovação</button>
+                <button class="filter-btn" data-filter="negocios">Negócios</button>
+            </div>
+        </section>
+
+        <!-- GRID DE NOTÍCIAS -->
+        <section class="news-section">
+            <div class="news-grid" id="newsGrid">
+                <!-- Notícia 1 -->
+                <article class="news-card" data-category="tecnologia">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/1e88e5/ffffff?text=IA+Generativa" alt="Notícia">
+                        <span class="category-badge">Tecnologia</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>IA Generativa Revoluciona Desenvolvimento de Software</h3>
+                        <p class="news-date">📅 20 de Março de 2026</p>
+                        <p class="news-excerpt">Novas ferramentas de inteligência artificial estão mudando a forma como os desenvolvedores criam código...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 2 -->
+                <article class="news-card" data-category="negocios">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/43a047/ffffff?text=Startups" alt="Notícia">
+                        <span class="category-badge">Negócios</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Startups de Tech Recebem Recordes de Investimentos</h3>
+                        <p class="news-date">📅 19 de Março de 2026</p>
+                        <p class="news-excerpt">O cenário de investimento em startups tecnológicas atinge novos recordes em 2026...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 3 -->
+                <article class="news-card" data-category="inovacao">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/e91e63/ffffff?text=Quantum" alt="Notícia">
+                        <span class="category-badge">Inovação</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Computadores Quânticos Atingem Novo Marco</h3>
+                        <p class="news-date">📅 18 de Março de 2026</p>
+                        <p class="news-excerpt">Pesquisadores anunciaram avanço significativo na computação quântica...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 4 -->
+                <article class="news-card" data-category="tecnologia">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/ff6f00/ffffff?text=5G" alt="Notícia">
+                        <span class="category-badge">Tecnologia</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Redes 5G Expandem Para Novas Regiões</h3>
+                        <p class="news-date">📅 17 de Março de 2026</p>
+                        <p class="news-excerpt">A expansão da tecnologia 5G continua acelerada em todo o país...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 5 -->
+                <article class="news-card" data-category="negocios">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/7b1fa2/ffffff?text=Criptomoedas" alt="Notícia">
+                        <span class="category-badge">Negócios</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Mercado de Criptomoedas Atinge Novo Patamar</h3>
+                        <p class="news-date">📅 16 de Março de 2026</p>
+                        <p class="news-excerpt">O valor total do mercado de criptomoedas ultrapassa marca histórica...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 6 -->
+                <article class="news-card" data-category="inovacao">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/00897b/ffffff?text=Robotica" alt="Notícia">
+                        <span class="category-badge">Inovação</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Robótica Avançada Transforma Indústria</h3>
+                        <p class="news-date">📅 15 de Março de 2026</p>
+                        <p class="news-excerpt">Novos robôs com inteligência artificial autônoma revolucionam o setor...</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Inscreva-se na Nossa Newsletter</h2>
+            <p>Receba as principais notícias diretamente no seu email</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Seu email..." required>
+                <button type="submit">Se Inscrever</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre TechNews</h4>
+                <p>Seu portal de notícias sobre tecnologia, inovação e negócios.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Inovação</a></li>
+                    <li><a href="#">Negócios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#">📱 Facebook</a>
+                    <a href="#">🐦 Twitter</a>
+                    <a href="#">📷 Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechNews. Todos os direitos reservados. | <a href="#">Privacidade</a> | <a href="#">Termos</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
